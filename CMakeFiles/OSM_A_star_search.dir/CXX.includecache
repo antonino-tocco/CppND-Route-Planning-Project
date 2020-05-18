@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.h
+vector
+-
+unordered_map
+-
+string
+-
+cstddef
+-
+
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.h
+limits
+-
+cmath
+-
+unordered_map
+-
+model.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.h
+iostream
+-
+
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.cpp
+route_planner.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.h
+algorithm
+-
+
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.h
+iostream
+-
+vector
+-
+string
+-
+route_model.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.h
+
