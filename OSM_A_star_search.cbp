@@ -328,6 +328,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/_test/utest_rp_a_star_search.cpp">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/main.cpp">
 			<Option target="OSM_A_star_search"/>
 		</Unit>
@@ -359,9 +362,6 @@
 		</Unit>
 		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.h">
 			<Option target="OSM_A_star_search"/>
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/thirdparty/googletest/googlemock/src/gmock-all.cc">

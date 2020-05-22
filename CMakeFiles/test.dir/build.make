@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,18 +57,18 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o: test/utest_rp_a_star_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp
+CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.o: _test/utest_rp_a_star_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/_test/utest_rp_a_star_search.cpp
 
-CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp > CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.i
+CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/_test/utest_rp_a_star_search.cpp > CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.i
 
-CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/test/utest_rp_a_star_search.cpp -o CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.s
+CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/_test/utest_rp_a_star_search.cpp -o CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.s
 
 CMakeFiles/test.dir/src/route_planner.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/route_planner.cpp.o: src/route_planner.cpp
@@ -111,7 +111,7 @@ CMakeFiles/test.dir/src/route_model.cpp.s: cmake_force
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o" \
+"CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.o" \
 "CMakeFiles/test.dir/src/route_planner.cpp.o" \
 "CMakeFiles/test.dir/src/model.cpp.o" \
 "CMakeFiles/test.dir/src/route_model.cpp.o"
@@ -119,7 +119,7 @@ test_OBJECTS = \
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o
+test: CMakeFiles/test.dir/_test/utest_rp_a_star_search.cpp.o
 test: CMakeFiles/test.dir/src/route_planner.cpp.o
 test: CMakeFiles/test.dir/src/model.cpp.o
 test: CMakeFiles/test.dir/src/route_model.cpp.o
