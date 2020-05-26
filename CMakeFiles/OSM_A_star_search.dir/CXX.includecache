@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/model.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.h
 vector
 -
 unordered_map
@@ -16,7 +16,7 @@ string
 cstddef
 -
 
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_model.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.h
 limits
 -
 cmath
@@ -24,17 +24,17 @@ cmath
 unordered_map
 -
 model.h
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/model.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.h
 iostream
 -
 
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_planner.cpp
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.cpp
 route_planner.h
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_planner.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.h
 algorithm
 -
 
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_planner.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.h
 iostream
 -
 vector
@@ -42,5 +42,5 @@ vector
 string
 -
 route_model.h
-/home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_model.h
+/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.h
 
