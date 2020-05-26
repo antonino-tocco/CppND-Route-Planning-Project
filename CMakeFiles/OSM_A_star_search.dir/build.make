@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/antonino/Workspace/C++/CppND-Route-Planning-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project
+CMAKE_BINARY_DIR = /home/antonino/Workspace/C++/CppND-Route-Planning-Project
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OSM_A_star_search.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/OSM_A_star_search.dir/flags.make
 
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o: src/model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o -c /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/model.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.cpp > CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/model.cpp > CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o: src/render.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o -c /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/render.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/render.cpp > CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/render.cpp > CMakeFiles/OSM_A_star_search.dir/src/render.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/render.cpp -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/render.cpp -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o: src/route_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o -c /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_model.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_model.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_model.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o: src/route_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o -c /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_planner.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_planner.cpp > CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/route_planner.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/route_planner.cpp -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s
 
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o: CMakeFiles/OSM_A_star_search.dir/flags.make
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o -c /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o -c /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/main.cpp
 
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/main.cpp > CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/main.cpp > CMakeFiles/OSM_A_star_search.dir/src/main.cpp.i
 
 CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/src/main.cpp -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antonino/Workspace/C++/CppND-Route-Planning-Project/src/main.cpp -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.s
 
 # Object files for target OSM_A_star_search
 OSM_A_star_search_OBJECTS = \
@@ -157,7 +157,7 @@ OSM_A_star_search: /usr/lib/x86_64-linux-gnu/libexpat.so
 OSM_A_star_search: /usr/lib/x86_64-linux-gnu/liblzma.so
 OSM_A_star_search: /usr/lib/x86_64-linux-gnu/libX11.so
 OSM_A_star_search: CMakeFiles/OSM_A_star_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OSM_A_star_search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable OSM_A_star_search"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OSM_A_star_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/OSM_A_star_search.dir/clean:
 .PHONY : CMakeFiles/OSM_A_star_search.dir/clean
 
 CMakeFiles/OSM_A_star_search.dir/depend:
-	cd /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles/OSM_A_star_search.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antonino/Workspace/C++/CppND-Route-Planning-Project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antonino/Workspace/C++/CppND-Route-Planning-Project /home/antonino/Workspace/C++/CppND-Route-Planning-Project /home/antonino/Workspace/C++/CppND-Route-Planning-Project /home/antonino/Workspace/C++/CppND-Route-Planning-Project /home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles/OSM_A_star_search.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OSM_A_star_search.dir/depend
 

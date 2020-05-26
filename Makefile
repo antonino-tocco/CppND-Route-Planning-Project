@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/antonino/Workspace/C++/CppND-Route-Planning-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project
+CMAKE_BINARY_DIR = /home/antonino/Workspace/C++/CppND-Route-Planning-Project
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -102,21 +102,10 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,11 +113,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/antonino/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles /home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonino/Workspace/C++/CppND-Route-Planning-Project/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,19 +157,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
 # Target rules for targets named OSM_A_star_search
 
 # Build rule for target.
@@ -181,6 +168,19 @@ OSM_A_star_search: cmake_check_build_system
 OSM_A_star_search/fast:
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/build
 .PHONY : OSM_A_star_search/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named pugixml
@@ -307,8 +307,8 @@ src/model.o: src/model.cpp.o
 
 # target to build an object file
 src/model.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/model.cpp.o
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/model.cpp.o
 .PHONY : src/model.cpp.o
 
 src/model.i: src/model.cpp.i
@@ -317,8 +317,8 @@ src/model.i: src/model.cpp.i
 
 # target to preprocess a source file
 src/model.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/model.cpp.i
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/model.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/model.cpp.i
 .PHONY : src/model.cpp.i
 
 src/model.s: src/model.cpp.s
@@ -327,8 +327,8 @@ src/model.s: src/model.cpp.s
 
 # target to generate assembly for a file
 src/model.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/model.cpp.s
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/model.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/model.cpp.s
 .PHONY : src/model.cpp.s
 
 src/render.o: src/render.cpp.o
@@ -364,8 +364,8 @@ src/route_model.o: src/route_model.cpp.o
 
 # target to build an object file
 src/route_model.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_model.cpp.o
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_model.cpp.o
 .PHONY : src/route_model.cpp.o
 
 src/route_model.i: src/route_model.cpp.i
@@ -374,8 +374,8 @@ src/route_model.i: src/route_model.cpp.i
 
 # target to preprocess a source file
 src/route_model.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_model.cpp.i
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_model.cpp.i
 .PHONY : src/route_model.cpp.i
 
 src/route_model.s: src/route_model.cpp.s
@@ -384,8 +384,8 @@ src/route_model.s: src/route_model.cpp.s
 
 # target to generate assembly for a file
 src/route_model.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_model.cpp.s
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_model.cpp.s
 .PHONY : src/route_model.cpp.s
 
 src/route_planner.o: src/route_planner.cpp.o
@@ -394,8 +394,8 @@ src/route_planner.o: src/route_planner.cpp.o
 
 # target to build an object file
 src/route_planner.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_planner.cpp.o
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_planner.cpp.o
 .PHONY : src/route_planner.cpp.o
 
 src/route_planner.i: src/route_planner.cpp.i
@@ -404,8 +404,8 @@ src/route_planner.i: src/route_planner.cpp.i
 
 # target to preprocess a source file
 src/route_planner.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_planner.cpp.i
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_planner.cpp.i
 .PHONY : src/route_planner.cpp.i
 
 src/route_planner.s: src/route_planner.cpp.s
@@ -414,8 +414,8 @@ src/route_planner.s: src/route_planner.cpp.s
 
 # target to generate assembly for a file
 src/route_planner.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_planner.cpp.s
 	$(MAKE) -f CMakeFiles/OSM_A_star_search.dir/build.make CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/route_planner.cpp.s
 .PHONY : src/route_planner.cpp.s
 
 # Help Target
@@ -428,10 +428,10 @@ help:
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
+	@echo "... OSM_A_star_search"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... OSM_A_star_search"
+	@echo "... rebuild_cache"
 	@echo "... pugixml"
 	@echo "... gmock_main"
 	@echo "... gmock"

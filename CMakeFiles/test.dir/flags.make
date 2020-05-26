@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/antonino/Workspace/nanodegrees/c++/projects/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
+CXX_INCLUDES = -I/home/antonino/Workspace/C++/CppND-Route-Planning-Project/thirdparty/pugixml/src -isystem /home/antonino/Workspace/C++/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/antonino/Workspace/C++/CppND-Route-Planning-Project/thirdparty/googletest/googletest 
 
